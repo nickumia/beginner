@@ -30,3 +30,20 @@
 *.exe
 *.out
 *.app
+
+# Make
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+configure
+depcomp
+install-sh
+missing
+Makefile
+add_numbers
+*.tar.gz
+c/.deps/
+c/.dirstamp
+config.log
+config.status
