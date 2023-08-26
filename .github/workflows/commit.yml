@@ -16,6 +16,7 @@ jobs:
           aclocal
           autoconf
           automake --add-missing
+          ./configure
           make distcheck
           make
           make install
