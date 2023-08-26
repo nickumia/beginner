@@ -1,0 +1,24 @@
+---
+name: Build + Run
+
+on:
+  push:
+
+jobs:
+  build_run:
+    name: Build + Run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Configure + Install
+        run: |
+          aclocal
+          autoconf
+          automake --add-missing
+          make distcheck
+          make
+          make install
+      - name: Run Programs
+        run: |
+          { echo 1; echo 2; } | add_numbers
