@@ -1,0 +1,18 @@
+[
+  { "type": 1,
+    "client": "jon",
+    "amount": 10
+  },
+  { "type": 2,
+    "client": "john",
+    "amount": 20
+  },
+  { "type": 5,
+    "client": "jong",
+    "amount": 120
+  },
+  { "type": 3,
+    "client": "jont",
+    "amount": 104
+  }
+]
